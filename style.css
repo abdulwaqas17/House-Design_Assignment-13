@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+  background: rgba(24, 24, 24, 0.7) url(./Assists/house.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: white;
+}
+
+/* .main{
+
+
+} */
+
+.nav{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.list{
+    margin-top: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.margin{
+    margin: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+.mid{
+    height: 100%;
+    text-align: center;
+    margin-top: 160px;
+}
+
+h1{
+    margin-bottom: 35px;
+}
+
+.para{
+    margin-bottom: 35px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+button{
+
+    padding: 12px 35px;
+    border-radius: 30px;
+    margin: 10px;
+    border: 2px solid rgb(86, 184, 184);
+    color: white;
+    font-weight: 700;
+}
+
+.f-button{
+    background-color: rgb(86, 184, 184);
+}
+
+.l-button{
+    background: none;
+}
+
+.l-button:hover{
+    background-color:  rgb(86, 184, 184);
+}
+
+.webDeveloper{
+    
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 60px;
+}
+
